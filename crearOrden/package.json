@@ -1,0 +1,23 @@
+{
+  "name": "apidelivery",
+  "version": "1.0.0",
+  "description": "api creada para conectar con la base de datos deliveryfood",
+  "main": "index.js",
+  "scripts": {
+    "dev": "create-order.js",
+    "test": "mocha test.js --reporter mochawesome --reporter-options autoOpen=false"
+  },
+  "author": "byron cermeno",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "chai": "^4.3.4",
+    "chai-http": "^4.3.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mocha": "^8.3.2",
+    "mochawesome": "^3.0.3",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.7"
+  }
+}
