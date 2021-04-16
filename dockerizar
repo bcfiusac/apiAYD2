@@ -1,0 +1,10 @@
+docker build -t bcfiusac/get-orden:latest .    ----> Generar el dockerimage basado en el dockerfile
+docker run -p 3001:3000 bcfiusac/get-orden:latest  ---> correr el docker
+docker push bcfiusac/get-orden:latest ----> subir el docker a docker hub
+docker login --> ingresar a mi cuenta de dockerhub
+docker pull bcfiusac/get-orden:latest ---> descargar la imagen de dockerhub a mi virtual
+----------------------------------------------------------------------------------------------------
+Siempre con SUDO SU
+
+
+
